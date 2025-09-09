@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dados/artefatos de treino
+training/data/
+training/unet_tf/saved_model/
+training/*.onnx
+# opcional: descomente a linha abaixo se NÃO quiser versionar o checkpoint
+# training/*.pt
+
+# Android/Gradle
+android/SegApp/.gradle/
+android/SegApp/build/
+**/.idea/
+**/local.properties
+
+# VS Code
+.vscode/

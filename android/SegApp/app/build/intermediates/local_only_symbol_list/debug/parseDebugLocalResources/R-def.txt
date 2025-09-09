@@ -1,0 +1,8 @@
+R_DEF: Internal format may change without notice
+local
+id btnPick
+id btnSegment
+id imgOriginal
+id imgOverlay
+id tvInfo
+layout activity_main

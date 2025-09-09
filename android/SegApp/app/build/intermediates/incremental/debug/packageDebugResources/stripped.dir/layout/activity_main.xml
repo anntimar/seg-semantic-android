@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnPick"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Selecionar imagem" />
+
+        <Button
+            android:id="@+id/btnSegment"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Segmentar (U‑Net TFLite)" android:layout_marginTop="8dp" />
+
+        <ImageView
+            android:id="@+id/imgOriginal"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:adjustViewBounds="true" android:layout_marginTop="12dp"
+            android:contentDescription="Original" />
+
+        <ImageView
+            android:id="@+id/imgOverlay"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:adjustViewBounds="true" android:layout_marginTop="12dp"
+            android:contentDescription="Com máscara" />
+
+        <TextView
+            android:id="@+id/tvInfo"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</ScrollView>
